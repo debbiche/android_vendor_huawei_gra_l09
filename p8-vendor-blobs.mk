@@ -16,8 +16,6 @@
 
 PRODUCT_COPY_FILES += \
 	vendor/huawei/p8/proprietary/ons.bin:system/ons.bin \
-    vendor/huawei/p8/proprietary/lib/libstagefright.so:system/lib/libstagefright.so \
-    vendor/huawei/p8/proprietary/lib64/libstagefright.so:system/lib64/libstagefright.so \
     vendor/huawei/p8/proprietary/lib64/libaudiopolicyservice.so:system/lib64/libaudiopolicyservice.so \
     vendor/huawei/p8/proprietary/lib/libaudiopolicyservice.so:system/lib/libaudiopolicyservice.so \
     vendor/huawei/p8/proprietary/etc/srs/models.txt:system/etc/srs/models.txt \
@@ -631,7 +629,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/p8/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
     vendor/huawei/p8/proprietary/vendor/lib/libbt-vendor.so:system/vendor/lib/libbt-vendor.so \
     vendor/huawei/p8/proprietary/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
-    vendor/huawei/p8/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
     vendor/huawei/p8/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib/mediadrm/libdrmclearkeyplugin.so \
     vendor/huawei/p8/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/huawei/p8/proprietary/vendor/lib64/egl/libGLES_mali.so:system/vendor/lib64/egl/libGLES_mali.so \
